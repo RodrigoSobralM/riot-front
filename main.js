@@ -14,7 +14,8 @@ function procurar() {
             }
         })
         .then(function(data){
-            console.log(data)
+
+            let modal3 = document.querySelector("#modal3")
             let name = document.getElementById("name")
             let lvl = document.getElementById("lvl")
             let imgProf =document.getElementById("imgProf")
@@ -24,11 +25,10 @@ function procurar() {
             let lvlmaestria = document.querySelectorAll("#lvlMaestria")
             let championMasteries = data.champion_masteries
 
-        
-
             imgProf.src = data.profile_image
-            name.innerHTML = invocador
+            name.innerHTML = data.name
             lvl.innerHTML =`Lvl: ${data.summonerLevel}`
+
             for(let i = 0; i < championMasteries.length; i++) { 
                 champ[i].src = championMasteries[i].champion_icon
                 nameChamp[i].innerHTML = championMasteries[i].champion_name
@@ -38,7 +38,7 @@ function procurar() {
         })
         .catch(error => {
             if (error.message.includes("500")) {
-                
+            
             } else {
                 
             }

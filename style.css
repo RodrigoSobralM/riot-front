@@ -79,6 +79,7 @@ body {
     color: #625D5D;
     margin-top: 10px;
     font-size: 25px;
+    text-align: center;
 }
 .champsInforms {
     background: rgba(255, 255, 255, 0.79);
@@ -121,6 +122,9 @@ body {
 }
 .cardInvocador img {
     margin-top: 56px;
+    border-radius: 50%;
+    border: 10px double black;
+    
 }
 .cardInvocador h1 {
     font-family: 'Inter';
@@ -142,4 +146,7 @@ body {
 .cardInvocador img {
     width: 221px;
     height: 209px;
+}
+#card3 {
+    background:rgba(255, 255, 255, 0.79);
 }
