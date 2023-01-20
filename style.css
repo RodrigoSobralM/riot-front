@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/lol.svg");
+    background: url("img/lol.svg") no-repeat;
     font-family: 'Inter', sans-serif;
     height: 100%;
 }

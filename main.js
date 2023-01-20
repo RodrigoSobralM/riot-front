@@ -4,7 +4,7 @@ function procurar() {
     document.getElementById('modal').style.setProperty('display', 'flex', 'important')
     let invocador = document.getElementById("invocador").value
     let finalURL = `https://riotapiproject.brunodi.repl.co/riot/${invocador}`
-    console.log(finalURL)
+    
     fetch(finalURL)
         .then(response => {
             if (!response.ok) {
@@ -41,9 +41,9 @@ function procurar() {
         })
         .catch(error => {
             if (error.message.includes("500")) {
-                console.log("404 error occurred. Resource not found.");
+                
             } else {
-                console.log("Error occurred: ", error);
+                
             }
         });
 }
