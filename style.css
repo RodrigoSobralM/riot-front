@@ -1,7 +1,6 @@
 body {
-    background: url("img/lol.svg") no-repeat;
+    background-image: url("img/lol.svg");
     font-family: 'Inter', sans-serif;
-    height: 100%;
 }
 .barSearch{
     display: flex;
