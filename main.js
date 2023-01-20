@@ -24,10 +24,7 @@ function procurar() {
             let lvlmaestria = document.querySelectorAll("#lvlMaestria")
             let championMasteries = data.champion_masteries
 
-            champ = Array.from(champ)
-            nameChamp = Array.from(nameChamp)
-            maestria = Array.from(maestria)
-            lvlmaestria = Array.from(lvlmaestria)
+        
 
             imgProf.src = data.profile_image
             name.innerHTML = invocador
