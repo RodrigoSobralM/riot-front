@@ -15,7 +15,7 @@ function procurar() {
         })
         .then(function(data){
 
-            let modal3 = document.querySelector("#modal3")
+            
             let name = document.getElementById("name")
             let lvl = document.getElementById("lvl")
             let imgProf =document.getElementById("imgProf")
@@ -37,10 +37,19 @@ function procurar() {
             }
         })
         .catch(error => {
+            let modal404 = document.querySelector("#modal404")
             if (error.message.includes("500")) {
-            
+                modal404.innerHTML = `
+                <div id="card-modal404">
+                    <div id="modalContent">
+                        <h1>Nenhum jogador com esse nick foi encontrado...</h1>
+                        <img src="img/404.svg" alt="">
+                    </div>
+                </div>`
+                modal404.style.visibility = 'visible'
             } else {
                 
             }
         });
 }
+
