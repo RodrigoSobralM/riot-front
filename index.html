@@ -25,15 +25,20 @@
             </div>
             <div id="modal">
                 <div id="card">
-                    <div class="cardInvocador">
+                    <div id="spinner"></div>
+                    <div id="cardInvocador">
                         <img id="imgProf" src="" alt="">
                         <h1 id="name"></h1>
                         <h2><span id="lvl">Lvl: </span></h2>
+                        <div id="ranked">
+                            <h2 id="rankName"></h2>
+                            <h2 id="rankTier"></h2>
+                        </div>
                     </div>
-                    <div class="line">
+                    <div id="line">
                         <img src="img/line.svg" alt="">
                     </div>
-                    <div class="modal2">
+                    <div id="modal2">
                         <div class="champImg">
                             <img id="champ1" src="" alt="">
                             <img id="champ2" src="" alt="">
@@ -79,7 +84,17 @@
             </div>
         </div>
     </section>
-    <div id="modal404"></div>
+    <div id="modal404">
+        <div id="card-modal404">
+            <div id="modalContent">
+                <h1>Nenhum jogador com esse nick foi encontrado...</h1>
+                <img src="img/404.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="loading-screen">
+        
+    </div>
 <script src="main.js"></script>
 </body>
 </html>

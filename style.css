@@ -104,7 +104,7 @@ body {
 .pointsM {
     margin-left: 46px;
 }
-.modal2 {
+#modal2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,21 +115,22 @@ body {
     margin-top: -35px;
 }
 
-.cardInvocador {
+#cardInvocador {
     background: rgba(255, 255, 255, 0.79);
     border-radius: 24px;
     width: 297px;
     height: 442px;
     margin-right: -65px;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
-.cardInvocador img {
-    margin-top: 56px;
+#imgProf {
     border-radius: 50%;
     border: 10px double black;
-    
+    margin-top: 20px;
 }
-.cardInvocador h1 {
+#cardInvocador h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -137,7 +138,7 @@ body {
     line-height: 58px;
     color: #625D5D;
 }
-.cardInvocador h2 {
+#cardInvocador h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -146,7 +147,7 @@ body {
     color: #797373;
     margin-top: -40px;
 }
-.cardInvocador img {
+#cardInvocador img {
     width: 221px;
     height: 209px;
 }
@@ -182,6 +183,27 @@ body {
 #modalContent img {
     margin-top: 50px;
 }
+
+#ranked {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(146, 114, 84);
+    border-top-color: rgb(75, 59, 45);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 @media only screen and (max-width: 1920px) {
     body {
         background-image: url("img/lol.svg");
