@@ -11,7 +11,6 @@ function showLoadingScreen() {
     spinner.style.display = "block";
 }
 
-// Hide the loading screen
 function hideLoadingScreen() {
     document.getElementById("cardInvocador").style.setProperty('display', 'flex', 'important')
     document.getElementById("modal2").style.setProperty('display', 'flex', 'important')
@@ -39,7 +38,7 @@ function procurar() {
             })
             .then(function(data){
                 hideLoadingScreen();
-                
+                console.log(data)
                 let name = document.getElementById("name")
                 let lvl = document.getElementById("lvl")
                 let imgProf =document.getElementById("imgProf")
