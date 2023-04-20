@@ -1,6 +1,6 @@
 # Riot Front
 
-# Busca de Invocadores do League of Legends
+## Busca de Invocadores do League of Legends
 
 Este é um projeto de busca de invocadores do jogo League of Legends que consome uma API para exibir informações sobre um jogador, incluindo seu nickname, nível (lvl), ranking e os três campeões com maior maestria.
 
