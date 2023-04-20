@@ -6,7 +6,7 @@ Este é um projeto de busca de invocadores do jogo League of Legends que consome
 
 ## Stack utilizada
 
-**Front-end:** HTML, CSS.
+**Front-end:** HTML, CSS e JavaScript.
 
 
 
