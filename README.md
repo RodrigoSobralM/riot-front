@@ -4,15 +4,6 @@
 
 Este é um projeto de busca de invocadores do jogo League of Legends que consome uma API para exibir informações sobre um jogador, incluindo seu nickname, nível (lvl), ranking e os três campeões com maior maestria.
 
-
-## Visão Geral
-
-Este projeto foi criado como parte de um projeto disciplinar para demonstrar habilidades em desenvolvimento web utilizando HTML e CSS. O currículo é apresentado como uma página web.
-## Aprendizados
-
-Aprendi a criar uma estrutura semântica utilizando as tags HTML corretas para criar a estrutura de um currículo, como cabeçalho, parágrafos, listas, links e imagens. E a aplicar estilos para melhorar a aparência do currículo, incluindo a formatação de texto, a definição de cores, margens e espaçamentos, o uso de classes e IDs para aplicar estilos específicos.
-
-
 ## Stack utilizada
 
 **Front-end:** HTML, CSS.
